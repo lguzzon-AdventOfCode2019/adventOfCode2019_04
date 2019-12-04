@@ -62,12 +62,7 @@ proc partOne =
 proc partTwo =
   var lPassword: BiggestInt = gcInput.max
   let lPasswordStrMax = $lPassword
-  let lIndexMax = [($lPasswordStrMax[0]).parseBiggestInt, ($lPasswordStrMax[
-      1]).parseBiggestInt, ($lPasswordStrMax[2]).parseBiggestInt, (
-      $lPasswordStrMax[3]).parseBiggestInt, ($lPasswordStrMax[
-      4]).parseBiggestInt, ($lPasswordStrMax[5]).parseBiggestInt]
   lPassword = gcInput.min
-  let lPasswordStrMin = $lPassword
   let lIndexMin = [0, 0, 0, 0, 0, 0]
 
   template indexLoop (aIndex: BiggestInt,
