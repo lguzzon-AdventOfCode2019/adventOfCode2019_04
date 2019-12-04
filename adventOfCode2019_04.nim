@@ -61,7 +61,6 @@ proc partOne =
 
 proc partTwo =
   var lPassword: BiggestInt = gcInput.max
-  let lPasswordStrMax = $lPassword
   lPassword = gcInput.min
   let lIndexMin = [0, 0, 0, 0, 0, 0]
 
